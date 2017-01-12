@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch"
+  },
+  "dependencies": {
+    "rxjs-es": "^5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "^0.0.32",
+    "rollup": "^0.41.1",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^3.2.2",
+    "typescript": "^2.1.5"
+  }
+}
