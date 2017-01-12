@@ -11,7 +11,7 @@ export default {
   plugins: [
     nodeResolve({jsnext: true}),
     typescript({typescript: require('typescript')}),
-    buble(),
+    buble({ transforms: { dangerousForOf: true } }),
     uglify()
   ]
 }
